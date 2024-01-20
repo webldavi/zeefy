@@ -25,7 +25,7 @@
         - **email-medium**: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\.[a-zA-Z]{2,}$/,
         - **email-advanced**: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/
     - `z.email().test()` Receives as a parameter the string that contains the email to be tested
-        - **Example:** [See Example](https://github.com/webldavi/zeefy#Usage/Examples)
+        - **Example:** [See Example](https://github.com/webldavi/zeefy#---usageexamples)
           
 - **✅ - Password validation**
     - `z.password` Receives a string parameter, which will be the validation level of the password
@@ -33,7 +33,7 @@
         - **password-medium**: /^(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&*]).{8,}$/,
         - **password-advanced**: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{10,}$/
     - `z.password().test()` Receives as a parameter the string that contains the email to be tested
-        - **Example:** [See Example](https://github.com/webldavi/zeefy#Usage/Examples)
+        - **Example:** [See Example](https://github.com/webldavi/zeefy#---usageexamples)
      
 - **✅ - String formatation**
   - `z.format()` Receives a string type parameter that will be the format you want to transform the string into
@@ -42,7 +42,7 @@
       - **brazil-cpf**: '###.###.###-##',
       - **brazil-cnpj**: '##.###.###/####-##'
   - `z.format().to()` Receivezs as a parameter the string that contains the content to be formated
-      - **Example**: [See Example](https://github.com/webldavi/zeefy#Usage/Examples)
+      - **Example**: [See Example](https://github.com/webldavi/zeefy#---usageexamples)
 
 ## ⚠️ - Installation - unready
 
