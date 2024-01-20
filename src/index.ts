@@ -16,8 +16,3 @@ class Zeefy extends Data{
   email = this.#Email.email
   password = this.#Password.password
 }
-
-
-const z = new Zeefy()
-
-console.log(z.email('email-basic').test("awdawd"))
