@@ -15,4 +15,6 @@ class Zeefy extends Data{
 
   email = this.#Email.email
   password = this.#Password.password
+  format = this.#Format.format
 }
+
